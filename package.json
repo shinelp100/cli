@@ -1,0 +1,31 @@
+{
+  "name": "shinelp100-cli",
+  "version": "1.0.0",
+  "description": "cli for shinelp100",
+  "main": "bin/mycli",
+  "bin": {
+    "mycli": "./bin/mycli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinelp100/cli.git"
+  },
+  "keywords": [
+    "cli",
+    "shinelp100"
+  ],
+  "bugs": {
+    "url": "https://github.com/shinelp100/cli/issues"
+  },
+  "homepage": "https://github.com/shinelp100/cli#readme",
+  "author": "shinelp100",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^7.0.0",
+    "shelljs": "^0.8.3"
+  }
+}

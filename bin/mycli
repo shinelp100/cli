@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const Creator = require("../lib/cli.js");
+
+const creator = new Creator();
+
+creator.init();
